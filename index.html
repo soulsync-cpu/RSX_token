@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MemeCoin 🚀</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: radial-gradient(circle at top, #0b0c10, #1f2833);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3rem;
+      background: linear-gradient(45deg, #00ffcc, #ff00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00ffcc; }
+      to { text-shadow: 0 0 20px #ff00ff; }
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .btn {
+      margin-top: 2rem;
+      padding: 0.8rem 2rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 50px;
+      background: linear-gradient(45deg, #00ffcc, #ff00ff);
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00ffcc;
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .float-emoji {
+      position: absolute;
+      animation: float 6s ease-in-out infinite;
+      opacity: 0.2;
+      font-size: 2rem;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-30px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="float-emoji" style="left:10%; animation-delay:0s;">🚀</div>
+  <div class="float-emoji" style="left:40%; animation-delay:1s;">💰</div>
+  <div class="float-emoji" style="left:70%; animation-delay:2s;">🔥</div>
+
+  <h1>MemeCoin 🚀</h1>
+  <p>The token that started as a joke, but ends with profits 💎</p>
+
+  <a class="btn" href="https://pancakeswap.finance/swap?outputCurrency=0xb806cC5040DB40f188422Fe3F5215C8921c71ae1&chainId=56&chain=bsc" target="_blank">
+    Buy on PancakeSwap
+  </a>
+
+  <footer>© 2025 MemeCoin. All Rights Reserved.</footer>
+</body>
+</html>
