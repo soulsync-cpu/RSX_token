@@ -1,2 +1,5 @@
-## 🌐 Live Website
-👉 [Check it out here](https://username.github.io/repo-name/](https://soulsync-cpu.github.io/MemeCoin/))
+## 🌐 RSX Token Website
+👉 [Check it out here](https://soulsync-cpu.github.io/MemeCoin/)
+
+🌐 Our Official Website
+👉 [Check it out here](https://rsx.rf.gd/)
